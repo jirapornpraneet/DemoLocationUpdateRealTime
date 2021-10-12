@@ -6,6 +6,10 @@
 	<string>By accessing your location</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>By accessing your location</string>
+	<key>NSLocationUsageDescription</key>
+	<string>By accessing your location</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>By accessing your location</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

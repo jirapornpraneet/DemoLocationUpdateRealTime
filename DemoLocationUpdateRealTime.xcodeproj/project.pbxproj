@@ -295,7 +295,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3266WF6C2V;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DemoLocationUpdateRealTime/Info.plist;
+				INFOPLIST_FILE = "/Users/iosdev/Documents/Project-Xcode/DemoLocationUpdateRealTime/DemoLocationUpdateRealTime/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -323,7 +323,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3266WF6C2V;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DemoLocationUpdateRealTime/Info.plist;
+				INFOPLIST_FILE = "/Users/iosdev/Documents/Project-Xcode/DemoLocationUpdateRealTime/DemoLocationUpdateRealTime/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
