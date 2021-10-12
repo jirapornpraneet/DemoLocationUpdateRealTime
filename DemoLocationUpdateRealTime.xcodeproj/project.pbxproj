@@ -13,6 +13,7 @@
 		6A4639FA27154435007315FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A4639F827154435007315FE /* Main.storyboard */; };
 		6A4639FC27154437007315FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A4639FB27154437007315FE /* Assets.xcassets */; };
 		6A4639FF27154437007315FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A4639FD27154437007315FE /* LaunchScreen.storyboard */; };
+		6A463A0727154445007315FE /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A463A0627154445007315FE /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6A4639FB27154437007315FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A4639FE27154437007315FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A463A0027154437007315FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A463A0627154445007315FE /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				6A4639F227154435007315FE /* AppDelegate.swift */,
 				6A4639F427154435007315FE /* SceneDelegate.swift */,
+				6A463A0627154445007315FE /* LocationManager.swift */,
 				6A4639F627154435007315FE /* ViewController.swift */,
 				6A4639F827154435007315FE /* Main.storyboard */,
 				6A4639FB27154437007315FE /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A463A0727154445007315FE /* LocationManager.swift in Sources */,
 				6A4639F727154435007315FE /* ViewController.swift in Sources */,
 				6A4639F327154435007315FE /* AppDelegate.swift in Sources */,
 				6A4639F527154435007315FE /* SceneDelegate.swift in Sources */,
