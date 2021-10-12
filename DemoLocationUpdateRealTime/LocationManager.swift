@@ -14,7 +14,7 @@ class LocationManager :NSObject, CLLocationManagerDelegate {
     static let sharedInstance = LocationManager()
     let locationManager = CLLocationManager()
     var timer: Timer?
-    var coordinate: CLLocationCoordinate2D?
+    var coordinate: CLLocationCoordinate2D!
     var currentBgTaskId : UIBackgroundTaskIdentifier?
     
     private override init(){
@@ -103,6 +103,15 @@ class LocationManager :NSObject, CLLocationManagerDelegate {
             
             if locations.last != nil {
                 coordinate = locations.last?.coordinate
+                let latlng = "Lat : \(coordinate.latitude) \nLng : \(coordinate.longitude)"
+                
+                let timeNow = Date()
+                let dateFormatter2 = DateFormatter()
+                dateFormatter2.timeZone = .current
+                dateFormatter2.dateFormat = "HHmmss"
+                let time = dateFormatter2.string(from: timeNow)
+                print(latlng)
+                print("time\(time)")
             }
         }
     }
