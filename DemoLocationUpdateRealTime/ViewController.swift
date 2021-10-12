@@ -8,6 +8,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+   
+    
+    @IBOutlet weak var latLabel: UILabel!
+    @IBOutlet weak var lngLabel: UILabel!
+    @IBOutlet weak var timeLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -34,7 +34,7 @@
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Long" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UTs-3O-3a2">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lng" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UTs-3O-3a2">
                                                                 <rect key="frame" x="0.0" y="94" width="331" height="94.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                                 <nil key="textColor"/>
@@ -91,6 +91,11 @@
                             <constraint firstItem="Zp9-Kw-eq9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zcM-Oh-qWY"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="latLabel" destination="dwT-RY-yPz" id="T2H-EB-lTJ"/>
+                        <outlet property="lngLabel" destination="UTs-3O-3a2" id="hck-JC-Eeq"/>
+                        <outlet property="timeLabel" destination="q2L-hP-Ofn" id="TMb-bU-Iwt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
