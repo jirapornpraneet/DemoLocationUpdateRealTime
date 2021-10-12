@@ -116,13 +116,6 @@ class LocationManager :NSObject, CLLocationManagerDelegate {
         }
     }
     
-    func compassDirection(for heading: CLLocationDirection) -> Int? {
-        if heading < 0 { return nil }
-        let direction = Int(heading)
-        return direction
-    }
-    
-    
 
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
         beginNewBackgroundTask()
